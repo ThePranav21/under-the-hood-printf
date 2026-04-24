@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    fart("char: %c, number: %d\n", 'A', 42);
+    fart("hex: %x, literal: 100%%\n", 255);
     return 0;
 }
