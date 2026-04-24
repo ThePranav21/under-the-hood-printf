@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    fart("hello %s\n", "world");
+    fart("char: %c, number: %d\n", 'A', 42);
     return 0;
 }
