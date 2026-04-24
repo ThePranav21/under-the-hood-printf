@@ -1,6 +1,10 @@
 #include "fart.h"
+#include <unistd.h>
+#include <string.h>
 
 int fart(const char *fmt, ...)
 {
-    return 0; // stub
+    int len = strlen(fmt);
+    write(1, fmt, len);
+    return len;
 }
